@@ -1,0 +1,9 @@
+transformers
+streamlit
+numpy
+keras
+tensorflow
+bs4
+requests
+pandas 
+django
