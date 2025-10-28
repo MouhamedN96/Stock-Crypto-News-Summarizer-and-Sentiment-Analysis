@@ -69,7 +69,7 @@ Stock-Crypto-News-Summarizer-and-Sentiment-Analysis/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/MouhamedN96/Stock-Crypto-News-Summarizer-and-Sentiment-Analysis/
    cd Stock-Crypto-News-Summarizer-and-Sentiment-Analysis
    ```
 
