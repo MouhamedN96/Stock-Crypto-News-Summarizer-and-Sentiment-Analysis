@@ -1,0 +1,118 @@
+.ticker-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.ticker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ticker-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ticker-card-header h3 {
+  font-size: 1.5rem;
+  color: #667eea;
+  margin: 0;
+}
+
+.asset-type {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.asset-type.stock {
+  background: #4caf50;
+  color: white;
+}
+
+.asset-type.crypto {
+  background: #ff9800;
+  color: white;
+}
+
+.ticker-card-body h4 {
+  color: #666;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.sentiment-summary {
+  margin-top: 1rem;
+}
+
+.sentiment-bar {
+  height: 8px;
+  background: #f44336;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.sentiment-bar-fill {
+  height: 100%;
+  transition: width 0.5s ease;
+}
+
+.sentiment-bar-fill.positive {
+  background: #4caf50;
+}
+
+.sentiment-counts {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.sentiment-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.sentiment-count .count {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.sentiment-count.positive .count {
+  color: #4caf50;
+}
+
+.sentiment-count.negative .count {
+  color: #f44336;
+}
+
+.sentiment-count .label {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.sentiment-percentage {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  padding: 1rem 0;
+}
